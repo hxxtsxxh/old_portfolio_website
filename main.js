@@ -45,7 +45,7 @@ window.addEventListener("resize", () => {
 // Torus
 
 const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
-const material = new THREE.MeshStandardMaterial({ color: 0x57249e });
+const material = new THREE.MeshStandardMaterial({ color: 0xc18f17 });
 const torus = new THREE.Mesh(geometry, material);
 
 scene.add(torus);
